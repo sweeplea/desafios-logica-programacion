@@ -1,0 +1,36 @@
+// Preguntar al usuario el día de la semana
+let diaSemana = prompt("¿Qué día de la semana es?");
+
+if (diaSemana.toLowerCase() === "sábado" || diaSemana.toLowerCase() === "domingo") {
+  alert("¡Buen fin de semana!");
+} else {
+  alert("¡Buena semana!");
+}
+
+// Verificar si un número es positivo o negativo
+let numero = parseFloat(prompt("Ingresa un número:"));
+
+if (numero > 0) {
+  alert("El número es positivo.");
+} else if (numero < 0) {
+  alert("El número es negativo.");
+} else {
+  alert("El número es cero.");
+}
+
+// Sistema de puntuación para un juego
+let puntuacion = parseInt(prompt("Ingresa tu puntuación:"));
+
+if (puntuacion >= 100) {
+  alert("¡Felicidades, has ganado!");
+} else {
+  alert("Inténtalo nuevamente para ganar.");
+}
+
+// Mostrar el saldo de la cuenta
+let saldo = parseFloat(prompt("Ingresa el saldo de tu cuenta:"));
+alert(`Tu saldo actual es: $${saldo.toFixed(2)}`);
+
+// Solicitar el nombre del usuario y mostrar un mensaje de bienvenida
+let nombre = prompt("Por favor, ingresa tu nombre:");
+alert(`¡Bienvenido, ${nombre}!`);
