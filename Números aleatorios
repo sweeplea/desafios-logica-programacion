@@ -1,0 +1,24 @@
+// 1. Mostrar los números del 1 al 10 en la consola.
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
+}
+
+// 2. Crear una variable "nota", asignarle un valor numérico, y usar un if-else para determinar si es "Aprobado" o "Reprobado".
+let nota = 8; // Puedes cambiar este valor para probar
+if (nota >= 7) {
+  console.log("Aprobado");
+} else {
+  console.log("Reprobado");
+}
+
+// 3. Utilizar Math.random para generar un número aleatorio y mostrarlo en la consola.
+let numeroAleatorio = Math.random();
+console.log("Número aleatorio:", numeroAleatorio);
+
+// 4. Utilizar Math.random para generar un número entero entre 1 y 10 y mostrarlo en la consola.
+let numeroEntre1y10 = Math.floor(Math.random() * 10) + 1;
+console.log("Número entero entre 1 y 10:", numeroEntre1y10);
+
+// 5. Utilizar Math.random para generar un número entero entre 1 y 1000 y mostrarlo en la consola.
+let numeroEntre1y1000 = Math.floor(Math.random() * 1000) + 1;
+console.log("Número entero entre 1 y 1000:", numeroEntre1y1000);
